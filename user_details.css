@@ -1,0 +1,56 @@
+/* user_details.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.card {
+  width: 400px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.92);
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 212, 255, 0.2);
+  animation: fadeInUp 0.5s ease;
+  color: #fff;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00d4ff;
+}
+
+.info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.label {
+  font-weight: bold;
+  color: #00d4ff;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
